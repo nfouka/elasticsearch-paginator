@@ -1,0 +1,7 @@
+acme_main_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AcmeMainBundle:Default:index }
+
+acme_main_homepage_pag:
+    path:     /paginator/{min}/{max}
+    defaults: { _controller: AcmeMainBundle:Default:paginator }
